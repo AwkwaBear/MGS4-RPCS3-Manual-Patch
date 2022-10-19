@@ -1,0 +1,96 @@
+Version: 1.2
+PRX-rbYkgZMgx8Prd7WUAA39oYAdWcNo-0:
+  "cellSpurs urgent commands hack - 4.87":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        BLES00246: [ All ]
+        BLUS30109: [ All ]
+        BLJM67001: [ All ]
+        NPUB31633: [ All ]
+        NPEB02182: [ All ]
+    Author: elad335
+    Notes: "Workaround for freezes in Metal Gear Solid 4.\nThis patch applies to a firmware file for all games!\nUsage outside of Metal Gear Solid 4 is for debug purposes only.\nYou must have firmware version of exactly 4.87 in order to use it.\n\nKnown to affect:\nMetal Gear Solid 4"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x182B8, 0x38000002 ]
+
+PRX-oM7itnHHZPcaVx6KRGhZcv0o4gJj-0:
+  "cellSpurs urgent commands hack - 4.88":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        BLES00246: [ All ]
+        BLUS30109: [ All ]
+        BLJM67001: [ All ]
+        NPUB31633: [ All ]
+        NPEB02182: [ All ]
+    Author: elad335
+    Notes: "Workaround for freezes in Metal Gear Solid 4.\nThis patch applies to a firmware file for all games!\nUsage outside of Metal Gear Solid 4 is for debug purposes only.\nYou must have firmware version of exactly 4.88 in order to use it.\n\nKnown to affect:\nMetal Gear Solid 4"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x182B8, 0x38000002 ]
+
+PRX-WHnKAK6U9UApL2YMgjU3c5ozpTUM-0:
+  "cellSpurs urgent commands hack - 4.89":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        BLES00246: [ All ]
+        BLUS30109: [ All ]
+        BLJM67001: [ All ]
+        NPUB31633: [ All ]
+        NPEB02182: [ All ]
+    Author: elad335
+    Notes: "Workaround for freezes in Metal Gear Solid 4.\nThis patch applies to a firmware file for all games!\nUsage outside of Metal Gear Solid 4 is for debug purposes only.\nYou must have firmware version of exactly 4.89 in order to use it.\n\nKnown to affect:\nMetal Gear Solid 4"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x182B8, 0x38000002 ]
+
+PPU-c937999ea44fb6260455b85c9f25eea55b1208b9:
+  "Crash fix":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        BLES00246: [ 02.00 ]
+    Author: TriggerHappy
+    Notes: "workaround for 0x68 crash"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x1409F8, 0x60000000 ]
+      - [ be32, 0x140A10, 0x60000000 ]
+      - [ be32, 0x140A44, 0x60000000 ]
+
+PPU-bbf4c85f1c01e182e7f96d34f734772c4430a426:
+  "Crash fix":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        NPUB31633: [ 02.00 ]
+    Author: TriggerHappy
+    Notes: "workaround for 0x68 crash"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x13F298, 0x60000000 ]
+      - [ be32, 0x13F2B0, 0x60000000 ]
+      - [ be32, 0x13F2E4, 0x60000000 ]
+
+PPU-347d16fbdb0a12f1083c0fb98343c4642d4641cb:
+  "Crash fix":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        NPEB02182: [ 02.00 ]
+    Author: TriggerHappy
+    Notes: "workaround for 0x68 crash"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x13F298, 0x60000000 ]
+      - [ be32, 0x13F2B0, 0x60000000 ]
+      - [ be32, 0x13F2E4, 0x60000000 ]
+PPU-33e09a0bd8fa2a3b28780a3feeb7b0e018bae381:
+  "Crash fix":
+    Games:
+      "Metal Gear Solid 4: Guns of the Patriots":
+        BLUS30109: [ 02.00 ]
+    Author: TriggerHappy
+    Notes: "workaround for 0x68 crash"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x1409F8, 0x60000000 ]
+      - [ be32, 0x140A10, 0x60000000 ]
+      - [ be32, 0x140A44, 0x60000000 ]
